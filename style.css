@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+.container{
+	display: grid;
+	width: 40%;
+	grid-template-rows: 325px 305px 400px 400px 150px 60px;
+	position: absolute;
+	margin-top: 100px;
+	border-radius: 25px 25px 0px 0px;
+	top: 1%;
+	left: 25%;
+	background: #242D52;
+}
+.img img{
+	height: 325px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 25px 25px 0px 0px;
+} 
+h1{
+	font-family: cursive;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 10px;
+	color: transparent;
+	background-image: url(mountain.webp);
+	background-size: 100% 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+}
+p{
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	color: white;
+}
+.profile button{
+	height: 40px;
+	width: 150px;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	border-radius: 30px;
+	margin-top: 25px;
+	margin-left: 200px;
+	border-color: #fff;
+}
+button a{
+	text-decoration: none;
+	color: black;
+}
+.about img{
+	height: 180px;
+	width: 180px;
+	float: right;
+	border-radius: 120px;
+	margin-top: 23px;
+	margin-right: 10px;
+	object-fit: cover;
+}
+.message{
+	color: white;
+}
+.message .msg{
+	height: 200px;
+	width: 400px;
+	margin-left: 90px;
+}
+.message .msg .username{
+	height: 20px;
+	width: 200px;
+}
+.message .msg .password{
+	height: 20px;
+	width: 200px;
+	margin-top: 20px;
+}
+.message .msg .mesg{
+	height: 20px;
+	width: 200px;
+	margin-top: 20px;
+}
+.message .msg .send{
+	height: 30px;
+	width: 50px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.icon{
+	margin-left: 150px;
+	margin-top: 20px;
+}
+.follow .icon img{
+	height: 30px;
+	width: 30px;
+	margin-left: 20px;
+}
+.footer{
+	text-align: center;
+}
